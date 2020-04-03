@@ -1,0 +1,7 @@
+{
+  "name": "Bovid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
