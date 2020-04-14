@@ -8,23 +8,29 @@ import { DataServiceService } from '../services/data-service.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+
+
   data:any;
+
   constructor(private dService: DataServiceService) {
     this.data = {
-      labels: ['A','B','C'],
+      labels: ['A','B','C','D'],
       datasets: [
           {
-              label: 'fist',
-              data: [55, 76, 100],
+              label: 'first',
+              data: [1, 66, 100, 133],
               backgroundColor: [
                   "#FF6384",
                   "#36A2EB",
-                  "#FFCE56"
+                  "#FFCE56",
+                  "#FFCE56",
+
               ],
               hoverBackgroundColor: [
                   "#FF6384",
                   "#36A2EB",
-                  "#FFCE56"
+                  "#FFCE56",
+                  "#FFCE56",
               ]
           }]    
       };
